@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  padding: 10px 120px;
+  background-color: rgb(26, 148, 255);
+}
+
+.text-header {
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header-account {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.text-header-small {
+  font-size: 12px;
+  color: #fff;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 30px;
+  color: #fff;
+}

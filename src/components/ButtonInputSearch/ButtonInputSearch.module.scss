@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+
+.input-type {
+  position: relative;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button-type {
+  position: absolute;
+  border: none;
+  color: #fff;
+  background: rgb(13, 92, 182);
+  margin-left: 583px;
+}
