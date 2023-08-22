@@ -2,6 +2,9 @@
   display: flex;
   padding: 10px 120px;
   background-color: rgb(26, 148, 255);
+  align-items: center;
+  gap: 16px;
+  flex-wrap: nowrap;
 }
 
 .text-header {
@@ -31,6 +34,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
 
 .cart-icon {
