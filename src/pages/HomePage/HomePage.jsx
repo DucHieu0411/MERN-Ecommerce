@@ -11,6 +11,7 @@ import Slider6 from "../../assets/images/Slider6.webp";
 
 import classNames from "classnames/bind";
 import styles from "./HomePage.module.scss";
+import CardComponent from "../../components/CardComponent/CardComponent";
 
 const cx = classNames.bind(styles);
 
@@ -28,6 +29,9 @@ const HomePage = () => {
           <SliderComponent
             arrImages={[Slider1, Slider2, Slider3, Slider4, Slider5, Slider6]}
           />
+          <div className={cx("card-product")}>
+            <CardComponent />
+          </div>
         </div>
       </div>
     </>
