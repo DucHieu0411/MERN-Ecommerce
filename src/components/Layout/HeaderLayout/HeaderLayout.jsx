@@ -3,7 +3,7 @@ import React from "react";
 import classNames from "classnames/bind";
 import styles from "./HeaderLayout.module.scss";
 
-import { Col } from "antd";
+import { Badge, Col } from "antd";
 import {
   CaretDownOutlined,
   ShoppingCartOutlined,
@@ -40,7 +40,9 @@ const HeaderLayout = () => {
           </div>
         </div>
         <div>
-          <ShoppingCartOutlined className={cx("cart-icon")} />
+          <Badge count={4} size="small">
+            <ShoppingCartOutlined className={cx("cart-icon")} />
+          </Badge>
           <span className={cx("text-header-small")}>Giỏ hàng</span>
         </div>
       </Col>

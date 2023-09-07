@@ -13,6 +13,7 @@ import classNames from "classnames/bind";
 import styles from "./HomePage.module.scss";
 import CardComponent from "../../components/CardComponent/CardComponent";
 import NavbarLayout from "../../components/Layout/NavbarLayout/NavbarLayout";
+import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 
 const cx = classNames.bind(styles);
 
@@ -32,8 +33,26 @@ const HomePage = () => {
           />
           <div className={cx("card-product")}>
             <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
+            <CardComponent />
           </div>
-          <NavbarLayout />
+          <div className={cx("button-paginition")}>
+            <ButtonComponent
+              className={cx("button-more")}
+              textbutton="Xem Thêm"
+              type="outline"
+            />
+          </div>
+          {/* <NavbarLayout /> */}
         </div>
       </div>
     </>

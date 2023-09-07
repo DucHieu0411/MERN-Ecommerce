@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 0 120px;
+  background: #efefef;
+}
+
+.row {
+  flex-flow: nowrap;
+  padding-top: 10px;
+}
+
+.col-1 {
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 10px;
+}
